@@ -1,0 +1,153 @@
+\chapter{Motivation for a Search for Vector-Like Quarks}
+
+
+
+
+\section{Short Overview of the Standard Model of Particle Physics}
+Particle physics deals with elementary particles without any substructure and bound states of the elemantary particles forming other particles.
+Moreover the interactions between the particles  are considered.
+Table \ref{standardmodel} shows the different elementary particles the Standard Model consists of.
+
+\begin{table}
+\centering
+%\setlength{\tabcolsep}{3cm}
+\begin{tabular}{|c|c c c|c|} 
+\hline
+ & 1st Generation & 2nd Generation & 3rd Generation &  Bosons \\
+\hline
+\hline
+&	&	&	& \small{Vector-bosons}	\\
+Quarks &  $\begin{matrix} u \\ \\ d \end{matrix}$ & $\begin{matrix} c \\ \\ s \end{matrix}$ & $\begin{matrix} t \\ \\ b \end{matrix}$ & $\gamma$ \\
+& & & & g  \\
+&	&	&	&	\\
+& &  &  & $W^{\pm}$, $Z^{0}$ \\
+Leptons & $\begin{matrix} \nu_{e} \\ \\ e \end{matrix}$ & $\begin{matrix} \nu_{\mu} \\ \\ \mu \end{matrix}$ & $\begin{matrix} \nu_{\tau} \\ \\ \tau \end{matrix}$ & \small{Scalar boson}  \\
+&	&	&	&   H \\
+&	&	&	&     \\
+ \hline
+\end{tabular}
+\caption{Elemantary particles of the Standard Model.}
+\label{standardmodel}
+\end{table}
+
+
+\begin{table}
+\centering
+%\setlength{\tabcolsep}{3cm}
+\begin{tabular}{|c|c c c|c c|} 
+\hline
+ & First Generation & Second Generation & Third Generation &  Bosons &\\
+\hline
+\hline
+&	&	&	&	& \scriptsize{Vector-bosons}\\
+Quarks & $\dbinom{u}{d}$ $\begin{matrix} u \\ d \end{matrix}$ & $\dbinom{c}{s}$ & $\dbinom{t}{b}$ & $\gamma$ &\\
+& & & & g & \hspace{-0.3cm}  H\\
+Leptons & $\dbinom{\nu_{e}}{e}$ & $\dbinom{\nu_{\mu}}{\mu}$ & $\dbinom{\nu_{\tau}}{\tau}$ & $W^{\pm}$, $Z^{0}$ &\\
+&	&	&	&	&\\
+ \hline
+\end{tabular}
+\caption{Elemantary particles of the Standard Model.}
+\label{standardmodel}
+\end{table}
+
+Both leptons and quarks are fermions with spin $s= \frac{1}{2}$. 
+There are twelve fermions, with one anti-particle for each fermion, which are segmented in three generations.     
+For the leptons there is a lepton with charge $q = -1$ (electron e, muon $\mu$, tau $\tau$) and a corresponding neutrino without electric charge(electron-neutrino $\nu_{e}$, muon-neutrino $\nu_{\mu}$, tau-neutrino $\nu_{\tau}$) in each genaration.
+The mass of charged leptons increases with the generation in which it is located and the neutrinos are supposed to be massless.
+The quarks can be divided in up-type and down-types with charge $q = +\frac{2}{3}$ for the up- and $q = -\frac{1}{3}$ for the down-types.
+Upquark u, charmequark c and topquark t are up-types while downquark d, strangequark s and bottomquark b are down-type quarks. 
+The mass of the quarks increases with the generation like it was mentioned for the leptons and the down-types are heavier than the up-types exept for the first generation.\\
+Furthermore the standard model includes particles with spin 1 which are the gauge bosons.
+They include the photon $\gamma$,the gluons g, the W bosons $W^{\pm}$ and the Z boson $Z^{0}$.
+The gauge bosons are the mediators of the fundamental forces. 
+The photon $\gamma$ mediates the elektromagnetic, the gluons the strong  and the $W^{\pm}$ and $Z^{0}$ the weak force.  
+Fermions and particles, which are bound states of the fermions, interact via the fundamental forces.
+There are different characteristics particles have to fulfill to participate in the different interactions.
+Particles with electric charge can interact via the electromagnetic force.
+The strong interaction occurs between particles with colour charge, which are quarks, bound states of quarks and gluons itself.
+The weak force is mediated between particles with weak charge having a left-handed chirality.\\
+The $\gamma$ and the gluons are massless, while the $W^{\pm}$ and $Z^{0}$ carry mass. 
+W bosons are the only gauge bosons which have electric charge with +1 for the $W^{+}$ and -1 for the $W^{-}$.\\
+Finally there is a scalar boson with spin 0, the higgs boson H.
+The higgs carries mass but no electric charge.
+It was predicted  by the higgs mechanism.
+The mechanism explains the existence of mass for the elementary particles of the Standard Model.
+
+
+
+
+\section{Beyond Standard Model Physics: Vector-like Quarks}
+Vector-like quarks \cite{handbook} are predicted as fermions with spin $\frac{1}{2}$.
+There are four types of vector-like quarks which are assumed to couple only to the third generation standard model quarks.
+Caused by the coupling between the vector-like quarks and the third generation quarks the coupling of the Standard model quarks to the vector bosons would change.\\
+The different vector-like quarks appear in seven multiplets of which two are singulets, three doublets and two triplets.
+Table \ref{vectorlikequarks} lists the different types of vector-like quarks with their specific charge and the possible multiplets they can be assigned too.
+
+\begin{table}
+\centering
+\begin{tabular}{|c|c||c|} 
+\hline
+Flavor& Charge & Arragnement in multiplets\\
+\hline
+  & 	           & \multirow{3}{*}{$T^{0}_{L,R}$ , $B^{0}_{L,R}$ (singlets)}\\
+T & $+\sfrac{2}{3}$ & \multirow{4}{*}{(X $T^{0})_{L,R}$,  ($T^{0} B^{0})_{L,R}$, ($B^{0} Y)_{L,R}$ (doublets)} \\
+B & $-\sfrac{1}{3}$ & \\
+Y & $+\sfrac{5}{3}$ & \multirow{3}{*}{(X $T^{0} B^{0} )_{L,R}$,  ($T^{0} B^{0} Y)_{L,R}$ (triplets)} \\  
+X & $-\sfrac{4}{3}$ & \\
+  &                &\\
+\hline
+\end{tabular}
+\caption{Containing the different types of vector-like quarks with their specific charge and the possible arragnement in multiplets. 
+The zero superscript is used to denote the weak eigenstates and seperate them from the mass eigenstates.
+For the multiplets containing X and Y the mass and weak eigenstates are the same. }
+\label{vectorlikequarks}
+\end{table}
+
+In this analysis only the singulets are considered.\\
+Possible decay channels for the vector-like quarks include a combination of the vector bosons or the higgs and a third generation quarks in order that conversation of charge is preexisting.\\
+Unlike the Standard Model quarks coupling with a (V-A) (vector minus axialvector) structure regarding the weak interaction, the vector-like quark have purely vector couplings.
+Therfore also vector-like quarks with right-handed chirality couple to the weak force.
+Because of this tranformation behavior explicit mass term in the lagrangian are not forbidden because they do not break the gauge invariance.
+Hence the vector-like quarks don't receive their masses from the higgs mechanism contrary to the Standard Model quarks.\\
+If the vector-like quarks would be added to the Standard Model they would offer the possibility to allow tree-level flavour-changing neutral currents and to break the GIM mechanism \cite{GIM}.
+Moreover vector-like quarks would provide new origins of CP violation \cite{CP1}, \cite{CP2}.
+Vector-like quarks are part of  theories beyond the Standard Model. 
+They are for example a necessary part of theories predicting the higgs as pseudo-Goldstone boson to explain why the mass of the higgs is as light as observed \cite{Th1-Th3}. 
+Furthermore they are part of the partial-compositeness theory of flavour in which they have an apperence as fermion resonances \cite{Th4,Th5}.
+This ideas are used for example in little higgs and composite higgs models .\\
+Vector-like quarks can be both pair and single produced.
+In this analysis the pair production process approached which is performed with gluon fusion.
+The feynman diagramms for both the production process and the specific decay topology considered in this analysis are presented in figure \ref{feynmantts} for the vector-like top and \ref{feynmanbbs} for the vector-like bottom quark. .
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=11cm]{figures/tts.pdf}
+\caption{Feynman diagramm for the vector-like top production process and decay channel.}
+\label{feynmantts}
+\end{figure}
+
+\newpage
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=11cm]{figures/bbs.pdf}
+\caption{Feynman diagramm for the vector-like bottom production process and decay channel.}
+\label{feynmanbbs}
+\end{figure}
+
+The analysis is in the dilepton channel therefore all particles except the Z boson decay hadronically and form jets. 
+The considered decay topology contains tree-level flavour-changing neutral currents.\\
+Previous analysis in the di- and trilepton channel with $\sqrt{s}$ = \SI{8}{TeV} for both pair and single production processes set mass limits for the vector-like top and bottom quark\cite{8tevanalysis}. 
+The limits for the singulets are $m_{T} >$ \SI{655}{GeV} for the vector-like top and $m_{B} >$ \SI{685}{GeV} for the vector-like bottom quark.  
+This limits are at the $95 \%$ confidence level \cite{confidencelevel}.
+ 
+
+
+
+
+
+
+
+
+
+
