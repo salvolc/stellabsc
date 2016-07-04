@@ -62,22 +62,22 @@ The mechanism explains the existence of mass for the elementary particles of the
 
 \section{Beyond Standard Model Physics: Vector-like Quarks}
 Vector-like quarks \cite{handbook} are part of  theories beyond the Standard Model. 
-They are for example a necessary part of theories predicting the higgs as pseudo-Goldstone boson to explain why the mass of the higgs is as light as observed \cite{Th1, Th2 , Th3}. 
-Furthermore, they are part of the partial-compositeness theory of flavour in which they have an appearance as fermion resonances \cite{Th4,Th5}.
-These ideas are used for example in little Higgs and composite Higgs models.\\
-In addition to that, if the vector-like quarks will exist, they would offer the possibility to allow tree-level flavour-changing neutral currents and to break the GIM mechanism \cite{GIM}.
-Moreover, new origins of CP violation would arise from the existence of vector-like quarks \cite{CP1, CP2}.\\
-In the theories mentioned before, vector-like quarks  are predicted as fermions with spin $s = \frac{1}{2}$.
-There are four types of vector-like quarks which are assumed to couple predominantly to the third generation Standard Model quarks.
-Caused by the coupling between the vector-like quarks and the third generation quarks, the coupling of the Standard Model quarks to the vector bosons would change.\\
-The different vector-like quarks may appear in seven multiplets of which two are singulets, three doublets and two triplets.
+They are for example a necessary part of theories predicting the higgs as pseudo-Goldstone boson to explain why the mass of the higgs is as light as observed \cite{Th1-Th3}. 
+Furthermore they are part of the partial-compositeness theory of flavour in which they have an apperence as fermion resonances \cite{Th4,Th5}.
+This ideas are used for example in little Higgs and composite Higgs models.\\
+In addition to that if the vector-like quarks will exist they would offer the possibility to allow tree-level flavour-changing neutral currents and to break the GIM mechanism \cite{GIM}.
+Moreover new origins of CP violation would arise from the existence of vector-like quarks \cite{CP1}, \cite{CP2}.\\
+In the theories mentioned before vector-like quarks  are predicted as fermions with spin $s = \frac{1}{2}$.
+There are four types of vector-like quarks which are assumed to couple predominantly to the third generation standard model quarks.
+Caused by the coupling between the vector-like quarks and the third generation quarks the coupling of the Standard model quarks to the vector bosons would change.\\
+The different vector-like quarks appear in seven multiplets of which two are singulets, three doublets and two triplets.
 Table \ref{vectorlikequarks} lists the different vector-like quark flavors with their specific charge and the possible multiplets they can be assigned too.
 
 \begin{table}
 \centering
 \begin{tabular}{|c|c||c|} 
 \hline
-Flavor& Charge & Arrangement in multiplets\\
+Flavor& Charge & Arragnement in multiplets\\
 \hline
   & 	           & \multirow{3}{*}{$T^{0}_{L,R}$ , $B^{0}_{L,R}$ (singlets)}\\
 T & $+\sfrac{2}{3}$ & \multirow{4}{*}{(X $T^{0})_{L,R}$,  ($T^{0} B^{0})_{L,R}$, ($B^{0} Y)_{L,R}$ (doublets)} \\
@@ -87,20 +87,20 @@ X & $-\sfrac{4}{3}$ & \\
   &                &\\
 \hline
 \end{tabular}
-\caption{This table contains the different types of vector-like quarks with their specific charge and the possible arrangement in multiplets. 
-The zero superscript is used to denote the weak eigenstates and separate them from the mass eigenstates.
+\caption{Containing the different types of vector-like quarks with their specific charge and the possible arragnement in multiplets. 
+The zero superscript is used to denote the weak eigenstates and seperate them from the mass eigenstates.
 For the multiplets containing X and Y the mass and weak eigenstates are the same. }
 \label{vectorlikequarks}
 \end{table}
 
-Unlike the Standard Model quarks coupling with a (V-A), which means a vector minus axialvector coupling structure regarding the weak interaction, the vector-like quarks have pure vector couplings.
-Therfore, also vector-like quarks with right-handed chirality couple to the weak force.
-Since the lagrangian describing the properties of the vector-like quarks is invariant under SU(2) transformations, explicit mass terms in the lagrangian are not forbidden because they do not break the local gauge invariance.
-Hence, the vector-like quarks do not receive their masses from the higgs mechanism in contrast to the Standard Model quarks.\\
+
 Because of the almost equal kinematic for the vector-like top and bottom quarks arranged in singulets, doublets and triplets the multiplets can be used similary for optimization studies.
 Therfore mostly only singulets are considered.\\
 Possible decay channels for the vector-like quarks include a combination of the vector bosons $W^{\pm}$, $Z^{0}$ or the higgs and a third generation quarks so that conservation of charge is guaranteed.\\
-
+Unlike the Standard Model quarks coupling with a (V-A), which means a vector minus axialvector coupling structure regarding the weak interaction, the vector-like quark have pure vector couplings.
+Therfore also vector-like quarks with right-handed chirality couple to the weak force.
+Because the lagrangian describing the properties of the vector-like quarks is invariant under SU(2) transformations explicit mass terms in the lagrangian are not forbidden because they do not break the local gauge invariance.
+Hence the vector-like quarks don't receive their masses from the higgs mechanism contrary to the Standard Model quarks.\\
 Vector-like quarks can be both pair and single produced.
 The main process for the pair production is the gluon fusion via the strong interaction.
 The Feynman diagrams for the pair production process with the specific vector-like quark decay topology TT \texorpdfstring{$\longrightarrow$}~ZtWb and BB \texorpdfstring{$\longrightarrow$}~ZbWt are presented in figure \ref{feynmantts} for the vector-like top and \ref{feynmanbbs} for the vector-like bottom quark. .

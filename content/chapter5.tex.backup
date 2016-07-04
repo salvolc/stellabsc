@@ -40,7 +40,7 @@ In figure \ref{leadingljet} the $p_{T}$ of the leading large-R jet is represente
 \caption{Plot for the leading large-R jet $p_{T}$. 
 Both signal and background are presented and the distributions are normalized on the same value. 
 The weighted number of events is displayed in the legend in brackets next to the processes. 
-The number of events are expected for a integrated luminosity $\int L dt$ = \SI{3.2}{fb^{-1}}.}
+The number of events are expected for a integrated luminosity $\int L dt$ = \SI{3.2}{fb^{-1}}}
 \label{leadingljet}
 \end{figure}
 
@@ -58,10 +58,7 @@ The number of events are expected for a integrated luminosity $\int L dt$ = \SI{
       \caption{}
       \label{mZt}
     \end{subfigure}
-    \caption{Plot for the $\Delta R$ between the Z candidate and the highest $p_{T}$ b-jet (a) and $\Delta R$ between the Z candidate and the highest $p_{T}$ top-jet (b)  . 
-Both signal and background are presented and the distributions are normalized on the same value. 
-The weighted number of events is displayed in the legend in brackets next to the processes. 
-The number of events are expected for a integrated luminosity $\int L dt$ = \SI{3.2}{fb^{-1}}.}
+    \caption{Example processes for single top production at the LHC.}
     \label{fig::stop}
 \end{figure}
 

@@ -73,7 +73,7 @@
 %------------------------------------------------------------------------------
 
 \usepackage[
-  locale=DE,
+  locale=UK,
   separate-uncertainty=true,
   per-mode=symbol-or-fraction,
 ]{siunitx}
@@ -115,6 +115,7 @@
 \usepackage[
   backend=biber,   % use modern biber backend
   sorting=none,
+  style=numeric-comp,
   autolang=hyphen, % load hyphenation rules for if language of bibentry is not
                    % german, has to be loaded with \setotherlanguages
                    % in the references.bib use langid={en} for english sources
@@ -126,7 +127,7 @@
 %------------------------------ Sonstiges: ------------------------------------,linkbordercolor=tugreen
 %------------------------------------------------------------------------------
 
-\usepackage[pdfusetitle,unicode]{hyperref}
+%\usepackage[pdfusetitle,unicode]{hyperref}
 \usepackage{bookmark}
 \usepackage[shortcuts]{extdash}
 \usepackage{atlasphysics}
@@ -134,11 +135,13 @@
 \usepackage{amssymb}
 \usepackage{tikz-feynman}
 \usepackage{tabularx} 
+
+
  
 %multi-row
 \usepackage{multirow}
- 
 
+\renewbibmacro{in:}{}
 
 \catcode`\_=\active
 \def_#1{\sb{\text{#1}}}
