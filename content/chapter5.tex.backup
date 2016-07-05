@@ -10,7 +10,7 @@ Figure \ref{H_T} shows the distribution for the scalar sum of the transverse mom
 
 \begin{figure}
 \centering
-\includegraphics[width=10cm]{figures/H_T.png}
+\includegraphics[width=8cm]{figures/H_T.png}
 \caption{Plot for the scalar sum of all jet $p_{T}$'s in an event after the preselection. 
 Both signal and background are presented and the distributions are normalized on the same value. 
 The weighted number of events is displayed in the legend in brackets next to the processes. 
@@ -20,10 +20,9 @@ The number of events are expected for a integrated luminosity $\int L dt$ = \SI{
 
 The distribution shows, that the signal is shifted to the right compared to the background, because there is more energy in the events resulting from the very massive vector-like quarks. 
 Figure \ref{Zpt} presents the distribution of the Z candidate $p_{T}$.
-
 \begin{figure}
 \centering
-\includegraphics[width=10cm]{figures/Zpt.png}
+\includegraphics[width=8cm]{figures/Zpt.png}
 \caption{Plot for the Z candidate $p_{T}$. 
 Both signal and background are presented and the distributions are normalized on the same value. 
 The weighted number of events is displayed in the legend in brackets next to the processes. 
@@ -33,35 +32,46 @@ The number of events are expected for a integrated luminosity $\int L dt$ = \SI{
 
 As mentioned for the $H_{T}$-distribution the signal is shifted to the right. That is as expeced, because the Z candidate results straight from the vector-like quark and should have a $p_{T}$ about \SI{450}{GeV}.
 In figure \ref{leadingljet} the $p_{T}$ of the leading large-R jet is represented, which means the $p_{T}$ of the large-R jets with the highest $p_{T}$ in an event.
-
-\begin{figure}
+\vspace{-0.5cm}
+\begin{figure}[h!]
 \centering
-\includegraphics[width=10cm]{figures/leadingljet.png}
+\includegraphics[width=8cm]{figures/leadingljet.png}
 \caption{Plot for the leading large-R jet $p_{T}$. 
 Both signal and background are presented and the distributions are normalized on the same value. 
 The weighted number of events is displayed in the legend in brackets next to the processes. 
-The number of events are expected for a integrated luminosity $\int L dt$ = \SI{3.2}{fb^{-1}}}
+The number of events are expected for a integrated luminosity $\int L dt$ = \SI{3.2}{fb^{-1}}.}
 \label{leadingljet}
 \end{figure}
 
+Figure \ref{mZb} shows the distribution of the invariant mass of the Z candidate and the highest $p_{T}$ b-jet and \ref{mZt} the invariant mass of the Z candidate and the highest $p_{T}$ top-jet.
+
+
+%\resizebox{0.48\columnwidth}{!}{
 \begin{figure}[h]
     \centering
+    \resizebox{0.46\columnwidth}{!}{
     \begin{subfigure}{.49\textwidth}
       \centering
       \includegraphics[width=.99\linewidth]{figures/mZb.png}
       \caption{}
       \label{mZb}
     \end{subfigure}
+    }
+    \resizebox{0.46\columnwidth}{!}{
     \begin{subfigure}{.49\textwidth}
       \centering
       \includegraphics[width=.99\linewidth]{figures/mZt.png}
       \caption{}
       \label{mZt}
     \end{subfigure}
-    \caption{Example processes for single top production at the LHC.}
-    \label{fig::stop}
+    }
+    \caption{Plot for the invariant mass of the Z candidate and the highest $p_{T}$ b-jet (a) and the invariant mass of the Z candidate and the highest $p_{T}$ top-jet (b)  . 
+Both signal and background are presented and the distributions are normalized on the same value. 
+The weighted number of events is displayed in the legend in brackets next to the processes. 
+The number of events are expected for a integrated luminosity $\int L dt$ = \SI{3.2}{fb^{-1}}.}
+    \label{fig::stop}   
 \end{figure}
-
+%}
 
 
 \section{Significance for Different Cuts}

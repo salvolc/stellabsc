@@ -1,4 +1,26 @@
 % kapitel3.tex
-\chapter{Events used in Analysis}
-\section{Simulated samples}
-\section{Event selection}
+\chapter{Monte-Carlo Samples}
+
+\section{Background Processes}
+In order to predict the Standard Model backgrounds for this analysis simulated samples are used. 
+The samples pass through a full detector simulation.
+The background is divided into five parts.
+There are the Z+jets backgrounds which includes Z+bottom, Z+charm and Z+light processes, the \ttbar{} background and the category \textit{other background}, which contains for example diboson (WW, ZW, ZZ) processes, ttee and tt$\mu \mu$ processes.
+The background processes are choosed as background because they can lead to simular signatures, as compared with the signal, caused by the partially equal final state products.\\
+The various processes are simulated with different event generators.
+Event generator simulate the processes starting from the pp-collusion and seperates the events into different stages.
+Therby production of heavy particles, radiating of lighter particles (gluons, photons), decay of heavy unstable particles, hadronization and the decays of the particles resulting from the hadronisations into long-lived particles, which finally go into the detector, are considered.
+There are event generations, which only generate till the hadronization process and therfore shower programs are added.
+To simulate the Z+jets samples the event genarator Sherpa 2.2 is used.
+Sherpa \cite{Sherpa} performs both simulating processes till the hadronization and beyond the hadronization at leading order precision. 
+For the \ttbar{} background processes the generator Powheg is utilized with Pythia 8.1 \cite{Pythia} as shower program.
+Powhag \cite{Powheg} is a next-to leading order event generator.
+For the diboson background there are both simulated samples with Sherpa 2.2 and Powheg \& Pythia 8.
+The ttee and tt$\mu \mu$ processes are simulated with Madgraph  and Pythia 8 as shower program.
+Madgraph \cite{Madgrapgh} is a eventgenerator which simulates at leading order.\\
+The used Monte-Carlo samples can be normalized to the value of the integrated luminosity by applying weights to the samples.
+Moreover weights for 
+
+
+\section{Signal Processes}
+

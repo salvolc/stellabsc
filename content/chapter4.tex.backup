@@ -60,9 +60,9 @@ The \ttbar{} background process has no peak at the Z pole mass which is as antic
 
 \begin{figure}
 \centering
-\includegraphics[width=11cm]{figures/Zmass.png}
+\includegraphics[width=8cm]{figures/Zmass.png}
 \caption{Distribution of the reconstructed Z boson mass after the preselection. 
-Both signal and background are presented and the distributions are normalized on the same value.
+Both signal and background are presented and the distributions are normalized to unity.
 The weighted number of events is displayed in the legend in brackets next to the processes. 
 The number of events are expected for a integrated luminosity $\int{Ldt}$ = \SI{3,2}{fb^{-1}} }.
 \label{Zmass}
@@ -89,8 +89,8 @@ As mentioned before, the figure shows that the decay products of the top-quark a
 
 \begin{figure}
 \centering
-\includegraphics[width=11cm]{figures/boost.png}
-\caption{Representative figure for a top quark decay with a high and a low top $p_{T}$ created by Emily Thompson.}
+\includegraphics[width=9cm]{figures/boost.png}
+\caption{Representative figure for a top quark decay with a high and a low top $p_{T}$ \cite{boosted}.}
 \label{boosted}
 \end{figure}
 
@@ -105,12 +105,16 @@ To avoid this problem the boosted analysis strategy can be used for high top-qua
 The idea of the boosted analysis strategy is to cluster one jet which has all decay products of a boosted particle in it.
 The area, where the decay products of a particle are located can be estimated with the formula $R \approx \frac{2m}{p_{T}}$, with m and $p_{T}$ for the mass and transverse momentum of the motherparticle and R the distance of the childparticle.
 In the boosted analysis a radius of $R = 1.0$ for the cluster algorithm is used. 
-A combined result from the top quark mass measurement is $m_{t} =$ \SI{173.29 \pm 0.95}{GeV} \cite{topmass}.
+A combined result from the top quark mass measurement is $m_{t} =$ \SI{173.34 \pm 0.76}{GeV} \cite{topmass}.
 Using the formula mentioned before the boosted analysis is sensibel for a $p_{T}$ of the top quark about \SI{350}{GeV} and more. 
 The boosted analysis strategy can be used for a decay of a boosted W boson, too.\\
 In this analysis jets clustered with  $R = 1.0$ are used.   
 These jets are called large-R jets. 
 Large-R jets offer the possibility to introduce top- and boson tagging.
+The top-tagger \cite{toptag} utilized in this analysis uses two variables for the top-jet identification, the invariant mass of the jet constituents $m_{jet}$ and the subjettiness ratio $\tau_{32}$, which discribes how adequate the jet can be interpretated as jet with three constuents.
+For the analysis the 80\% signal efficiency working point for the top-tagger is choosen. 
+The W-tagger \cite {Wtag} works with three substructure variables in combination with a groomed jet mass window.
+The chosen working point of the W-tagger has 50\% signal efficiency. 
 Table \ref{calibration} contains different conditions large-R jets have to fulfill to ensure that they are calibrated.
 
 \begin{table}[h!]
@@ -136,9 +140,9 @@ Figure \ref{deltaR} shows the distribution of the $\Delta R$ between all large-R
 
 \begin{figure}
 \centering
-\includegraphics[width=10cm]{figures/deltaR.png}
+\includegraphics[width=8cm]{figures/deltaR.png}
 \caption{Distribution of the $\Delta R$ of the large-R jets and the Z boson candidate after the preselection. 
-Both signal and background are presented and the distributions are normalized on the same value. 
+Both signal and background are presented and the distributions are normalized to unity. 
 The weighted number of events is displayed in the legend in brackets next to the processes. 
 The number of events are expected for a integrated luminosity $\int L dt$ = \SI{3.2}{fb^{-1}}}.
 \label{deltaR}
@@ -156,6 +160,7 @@ This requirement is called overlap removal.
 
 
 \section{Basic Selection Implied by the Boosted WbZt Topology  }
+\label{basic selection}
 The decay topologys TT \texorpdfstring{$\longrightarrow$}~ZtWb and BB \texorpdfstring{$\longrightarrow$}~ZbWt for the optimization studies in this analysis are defined as mentioned before. 
 Because of the specific products of the vector-like quark decays further selection can be added to the preselection discussed in section \ref{Event preselection}.       
 It is reasonable that at least two large-R jets should be required considering that there is one top quark and one W boson, which could lead to large-R jets. 
@@ -164,9 +169,9 @@ Figure \ref{ljetmult} shows the multiplicity of the large-R jets.
 
 \begin{figure}
 \centering
-\includegraphics[width=10cm]{figures/multipliljet.png}
+\includegraphics[width=8cm]{figures/multipliljet.png}
 \caption{Plot for the large-R jet multiplicity after the preselection. 
-Both signal and background are presented and the distributions are normalized on the same value. 
+Both signal and background are presented and the distributions are normalized to unity. 
 The weighted number of events is displayed in the legend in brackets next to the processes. 
 The number of events are expected for a integrated luminosity $\int L dt$ = \SI{3.2}{fb^{-1}}}
 \label{ljetmult}
@@ -186,23 +191,14 @@ A representation for the distribution of the top- and W-tag multiplicity can be 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=11cm]{figures/topmultiplicity.png}
+\includegraphics[width=8cm]{figures/topmultiplicity.png}
 \caption{Plot for the top-tag multiplicity after the preselection.
-Both signal and background are presented and the distributions are normalized on the same value. 
+Both signal and background are presented and the distributions are normalized to unity. 
 The weighted number of events is displayed in the legend in brackets next to the processes. 
 The number of events are expected for a integrated luminosity $\int L dt$ = \SI{3.2}{fb^{-1}}}.
 \label{topmultipli}
 \end{figure}
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width=11cm]{figures/Wmultiplicity.png}
-\caption{Plot for the W-tag multiplicity after the preselection. 
-Both signal and background are presented and the distributions are normalized on the same value. 
-The weighted number of events is displayed in the legend in brackets next to the processes. 
-The number of events are expected for a integrated luminosity $\int L dt$ = \SI{3.2}{fb^{-1}}}.
-\label{bosonmultipli}
-\end{figure}
 
 The plot for the top-tag multiplicity shows that most background events do not have a top-tagged large-R jet.
 That is reasonable if the Z+jets backgrounds are regarded because in these processes no top quark is included. 
@@ -217,9 +213,22 @@ Figure \ref{topobosontag} shows the multiplicity fot the W-tagged jets which are
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=11cm]{figures/Wotoptag.png}
+\includegraphics[width=8cm]{figures/Wotoptag.png}
 \caption{Plot for the W-tag multiplicity with requiring a top-tag veto. The preselection is implemented. 
-Both signal and background are presented and the distributions are normalized on the same value. 
+Both signal and background are presented and the distributions are normalized to unity. 
+The weighted number of events is displayed in the legend in brackets next to the processes. 
+The number of events are expected for a integrated luminosity $\int L dt$ = \SI{3.2}{fb^{-1}}}.
+\label{topobosontag}
+\end{figure}
+
+The distribution confirms the argumentation mentioned before, because it shows that almost none W-tagged jets are not top-tagged at the same time.\\
+Figure \ref{bosonmultipli} shows the multiplicity of the W-tagged jets.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=8cm]{figures/Wmultiplicity.png}
+\caption{Plot for the W-tag multiplicity after the preselection. 
+Both signal and background are presented and the distributions are normalized to unity. 
 The weighted number of events is displayed in the legend in brackets next to the processes. 
 The number of events are expected for a integrated luminosity $\int L dt$ = \SI{3.2}{fb^{-1}}}.
 \label{bosonmultipli}
@@ -231,11 +240,16 @@ This could be caused by the argumentation mentioned before that the large-R jet 
 In addition to that the boson-tagger doesn't work perfectly but has an efficiency of 50 \%.\\
 After demanding all three parts of the basic selection implied by the boosted WbZt topology, a lot of background is rejected, which becomes obvious in the three discributions described before.
 The unweighted number of events, which means the real number of Monte-Carlo events, without any weights applied , and the weighted number of events for signal and background after the basic selection is listed in table \ref{numberoevents}.
-\vspace{-0.19cm}
+The listed numbers reveal that after the event preselection and basic selection there are for both signal and background very  low numbers of events.
+An optimization study without enough statistic is not convincing because the distributions subject to large statistical uncertainties.
+Therefore the optimization study in this analysis is performed without requiring at least one W-tag.
+The number of events after the basic selection is much higher for both signal and background without this requirement.
+These number of events both weighted and unweighted are listed in table \ref{numberoevents1}.
 
 \begin{table}
 \centering
 %\setlength{\tab}{\textwidth}
+\resizebox{0.8\columnwidth}{!}{
 \begin{tabular}{|c|c|c|} 
 \hline
 \textbf{Process} & \textbf{Unweighted number of events} & \textbf{Weighted number of events}  \\
@@ -250,20 +264,18 @@ TTS & 214 & 0.1094\\
 BBS & 176 & 0.1089\\
 \hline
 \end{tabular}
+}
 \caption{Unweighted and weighted number of events for signal and background processes after requiring two large-R jets and both top- and W-tag.}
 \label{numberoevents}
 \end{table}
 
 
-The listed numbers reveal that after the event preselection and basic selection there are for both signal and background very  low numbers of events.
-An optimization study without enough statistic is not convincing because the distributions subject to large statistical uncertainties.
-Therefore the optimization study in this analysis is performed without requiring at least one W-tag.
-The number of events after the basic selection is much higher for both signal and background without this requirement.
-These number of events both weighted and unweighted are listed in table \ref{numberoevents1}.
+
 
 \begin{table}
 \centering
 %\setlength{\tab}{\textwidth}
+\resizebox{0.8\columnwidth}{!}{
 \begin{tabular}{|c|c|c|} 
 \hline
 \textbf{Process} & \textbf{Unweighted number of events} & \textbf{Weighted number of events}  \\
@@ -278,8 +290,9 @@ TTS & 560 & 0.2922\\
 BBS & 530 & 0.3856\\
 \hline
 \end{tabular}
+}
 \caption{Unweighted and weighted number of events for signal and background processes after requiring two large-R jets and at least one top-tag.}
-\label{numberoevents}
+\label{numberoevents1}
 \end{table}
 
  
