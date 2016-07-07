@@ -88,9 +88,12 @@ Boosted analysis provide the possibility of this variable by using the top-tag.
 The optimization studys are performed concering an interval of the final discriminat distributions.
 The interval is chosen, starting from the highest values of $m(Zb)$ and $m(Zt)$ until 80\% of all signal events of BBS and TTS are within the interval.
 This interval is chosen because the signal is shifted to higher values of $m(Zb)$ and $m(Zt)$.
-Therefore the in the interval the main background is rejected. 
+Therefore in the interval the main background is rejected. 
 The significance of the signal relative to the fluctuations of the background is investigated with formula $\frac{s}{\sqrt{b}}$, while $\sqrt{b}$ describes the statistical uncertainty of the background and $s$ the number of signal events.
-Figure \ref{mZbcut} and \ref{mZtcut} show the significance as function of varying limits considering the vaiables presented in section \ref{distributions} for $m(Zb)$ and $m(Zt)$. 
+Figure \ref{mZbcut} shows the significance as function of varying limits considering the vaiables presented in section \ref{distributions} for the chosen interval of $m(Zb)$. 
+
+
+
 \begin{figure}[h]
     \centering
     \resizebox{0.46\columnwidth}{!}{
@@ -98,59 +101,150 @@ Figure \ref{mZbcut} and \ref{mZtcut} show the significance as function of varyin
       \centering
       \includegraphics[width=.99\linewidth]{figures/H_TcutmZb.pdf}
       \caption{}
-      \label{mZb}
+      \label{HTmZb}
     \end{subfigure}
     }
-    \resizebox{0.46\columnwidth}{!}{
-    \begin{subfigure}{.49\textwidth}
-      \centering
-      \includegraphics[width=.99\linewidth]{figures/H_TcutmZt.pdf}
-      \caption{}
-      \label{mZb}
-    \end{subfigure}
-    }
+    \centering
     \resizebox{0.46\columnwidth}{!}{
     \begin{subfigure}{.49\textwidth}
       \centering
       \includegraphics[width=.99\linewidth]{figures/leadingljetptcutmZb.pdf}
       \caption{}
-      \label{mZt}
+      \label{ljetmZb}
     \end{subfigure}
     }
-    \resizebox{0.46\columnwidth}{!}{
-    \begin{subfigure}{.49\textwidth}
-      \centering
-      \includegraphics[width=.99\linewidth]{figures/leadingljetptcutmZt.pdf}
-      \caption{}
-      \label{mZt}
-    \end{subfigure}
-    }
+    \centering
     \resizebox{0.46\columnwidth}{!}{
     \begin{subfigure}{.49\textwidth}
       \centering
       \includegraphics[width=.99\linewidth]{figures/ZptcutmZb.pdf}
       \caption{}
-      \label{mZt}
+      \label{ZpTmZb}
     \end{subfigure}
     }
-     \resizebox{0.46\columnwidth}{!}{
-    \begin{subfigure}{.49\textwidth}
-      \centering
-      \includegraphics[width=.99\linewidth]{figures/ZptcutmZt.pdf}
-      \caption{}
-      \label{mZt}
-    \end{subfigure}
-    }
-    \caption{Plot for the significance for m(Zb) as function of varying limits for $H_{T}$ (a), leading large-R jet $p_{T}$ and Z boson $p_{T}$.
+    \caption{Plot for the significance for m(Zb) as function of varying limits for $H_{T}$ (a), leading large-R jet $p_{T}$ (b) and Z boson $p_{T}$ (c).
     The values of the limits varying with \SI{50}{GeV} steps.}
     \label{mZbcut}   
 \end{figure}
+    
+
 
 The graphs are consistent with the distributions for the different variables, because the trend is as expected by regarding the distributions in section \ref{distributions}.
 For $H_{T}$ and leading large-R jet $p_{T}$ the significance has higher values for lower limits and decreases fastly for higher limits.
 This is as expected, because the signal distribution is only slighly shifted to higher values and therefore for higher limits the peak of the signal is rejected.
 For the Z candidate $p_{T}$ distribution the distinction between background and signal is more significant.
 Therfore higher limits can be set to reject a lot of background and do not cut into the main signal region.
+Figure \ref{mZtcut} shows the significance as function of varying limits considering the vaiables presented in section \ref{distributions} for the chosen interval of $m(Zb)$.
+
+\newpage
+
+\begin{figure}[h]
+    \centering
+    \resizebox{0.46\columnwidth}{!}{
+    \begin{subfigure}{.49\textwidth}
+      \centering
+      \includegraphics[width=.99\linewidth]{figures/H_TcutmZt.pdf}
+      \caption{}
+      \label{HTmZt}
+    \end{subfigure}
+    }
+    \centering
+    \resizebox{0.46\columnwidth}{!}{
+    \begin{subfigure}{.49\textwidth}
+      \centering
+      \includegraphics[width=.99\linewidth]{figures/leadingljetptcutmZt.pdf}
+      \caption{}
+      \label{ljetmZt}
+    \end{subfigure}
+    }
+    \centering
+    \resizebox{0.46\columnwidth}{!}{
+    \begin{subfigure}{.49\textwidth}
+      \centering
+      \includegraphics[width=.99\linewidth]{figures/ZptcutmZt.pdf}
+      \caption{}
+      \label{ZpTmZt}
+    \end{subfigure}
+    }
+    \caption{Plot for the significance for m(Zb) as function of varying limits for $H_{T}$ (a), leading large-R jet $p_{T}$ (b) and Z boson $p_{T}$ (c).
+    The values of the limits varying with \SI{50}{GeV} steps.}
+    \label{mZtcut}   
+\end{figure}
+    
+
+
+
+The TTS distribution in figure \ref{Zpt} is shifted to lower values as the BBS distribution, therefore it is as expected, that the maximum of the significance for TTS is achieved for lower limits than for the BBS signal process.
+Figure \ref{HTmZb} and \ref{HTmZt} confirm the argumentation mentioned before.
+The trends for leading large-R jet $p_{T}$ and $H_{T}$ can be explained with the same argumentation used for BBS.\\
+The graph for the Z candidate $p_{T}$ limits increases for both $m(Zt)$,representing the significance for TTS, and $m(Zb)$, representing the significa for BBS, to the highest values considering all variables represented in figure \ref{mZb+mZtcut}.
+Therfore the first limit is set for the Z candidate $p_{T}$.
+The limit for both TTS and BBS are chosen to achieve the highest value of $\frac{s}{\sqrt{b}}$.
+Thereby a limit of $p_{T} \geq$ \SI{250}{GeV} come out for TTS and a limit of $p_{T} \geq$ \SI{450}{GeV} for BBS. \\
+Figure \ref{mZbcutafterZpt} shows the significance for the $m(Zb)$ interval as function of varying limits, considering $H_{T}$ and leading large-R jet $p_{T}$, after the Z candidate $p_{T}$ limit is set.
+
+\begin{figure}[h]
+    \centering
+    \resizebox{0.46\columnwidth}{!}{
+    \begin{subfigure}{.49\textwidth}
+      \centering
+      \includegraphics[width=.99\linewidth]{figures/H_TcutmZbafterZpt.pdf}
+      \caption{}
+      \label{HTmZbafterZpt}
+    \end{subfigure}
+    }
+    \resizebox{0.46\columnwidth}{!}{
+    \begin{subfigure}{.49\textwidth}
+      \centering
+      \includegraphics[width=.99\linewidth]{figures/leadingljetptcutmZbafterZpt.pdf}
+      \caption{}
+      \label{ljetmZbafterZpt}
+    \end{subfigure}
+    }
+    \caption{Plot for the significance for m(Zb) as function of varying limits for $H_{T}$ (a), leading large-R jet $p_{T}$ (b) after requiring $p_{T} \geq$ \SI{450}{GeV}.
+    The values of the limits varying with \SI{50}{GeV} steps for $H_{T}$ and leading large-R jet $p_{T}$.}
+    \label{mZbcutafterZpt}   
+\end{figure}
+
+
+\begin{figure}[h]
+    \centering
+    \resizebox{0.46\columnwidth}{!}{
+    \begin{subfigure}{.49\textwidth}
+      \centering
+      \includegraphics[width=.99\linewidth]{figures/H_TcutmZbafterZpt.pdf}
+      \caption{}
+      \label{HTmZbafterZpt}
+    \end{subfigure}
+    }
+    \resizebox{0.46\columnwidth}{!}{
+    \begin{subfigure}{.49\textwidth}
+      \centering
+      \includegraphics[width=.99\linewidth]{figures/H_TcutmZtafterZpt.pdf}
+      \caption{}
+      \label{HTmZtafterZpt}
+    \end{subfigure}
+    }
+    \resizebox{0.46\columnwidth}{!}{
+    \begin{subfigure}{.49\textwidth}
+      \centering
+      \includegraphics[width=.99\linewidth]{figures/leadingljetptcutmZbafterZpt.pdf}
+      \caption{}
+      \label{ljetmZbafterZpt}
+    \end{subfigure}
+    }
+    \resizebox{0.46\columnwidth}{!}{
+    \begin{subfigure}{.49\textwidth}
+      \centering
+      \includegraphics[width=.99\linewidth]{figures/leadingljetptcutmZtafterZpt.pdf}
+      \caption{}
+      \label{ljetmZtafterZpt}
+    \end{subfigure}
+    }
+    \caption{Plot for the significance for m(Zt) as function of varying limits for $H_{T}$ (a), leading large-R jet $p_{T}$ (b) after requiring $p_{T} \geq$ \SI{250}{GeV}.
+    The values of the limits varying with \SI{50}{GeV} steps for $H_{T}$ and leading large-R jet $p_{T}$.}
+    \label{mZtcutafterZpt}   
+\end{figure}
 
 
 
