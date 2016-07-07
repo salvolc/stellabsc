@@ -3,30 +3,41 @@
 
 \section{Background Processes}
 \label{samples}
-In order to predict the Standard Model backgrounds for this analysis simulated samples are used. 
-The samples pass through a full detector simulation.
-The background is divided into five parts.
-There are the Z+jets backgrounds, which includes Z+bottom, Z+charm and Z+light processes, the \ttbar{} background and the category \textit{other background}, which contains for example diboson (WW, ZW, ZZ) processes, ttee and tt$\mu \mu$ processes.
-The background processes are choosed as background because they can lead to simular signatures, as compared with the signal, caused by the partially equal final state products.\\
+In order to perform unbiassed analysis in the particle physic, the analysis strategy is studied with simulated samples and later on compared with data.
+In this analysis only simulated data are considered.
+The simulated background samples cointain background processes generated from Monte Carlo simulations.
+For the background,  Monte Carlos samples uses random number generators in combination with branching ratios predicted in the Standard Model to simulate processes.
+The Monte Carlo samples used in this analysis passed through a full detector simulation.\\
+The background is divided into five parts, considering the dominant background processes particular and combine the other in one category.
+There are the Z+jets backgrounds, which includes Z+bottom, Z+charm and Z+light processes.
+The Z+bottom process is composed of a Z candidate and a number of b-jets, both are produced at the same time.
+The other Z+jets backgrounds are composed simular, with a number of charm-jets for Z+charm and a number of light-jets (strange-,up-,down-jets).
+Moreover there is the \ttbar{} background, which includes a produced top-quark pair, and the category ``other background'', which contains for example diboson processes, ttee and tt$\mu \mu$ processes.
+The diboson processes include a produced pair of vector bosons (WW, ZW, ZZ) and the ttee respectively tt$\mu \mu$ processes a coincident production of a top-quark pair and a pair of electrons respectively muons.
+Since the different processes and the signal can lead to simular signatures in the detector, caused by partially equal final state products, the processes are chosen as background. \\
 The various processes are simulated with different event generators.
-Event generator simulate the processes starting from the pp-collusion and seperates the processes into different stages.
-Therby production of heavy particles, radiating of lighter particles (gluons, photons), decay of heavy unstable particles, hadronization and the decays of the particles resulting from the hadronisations into long-lived particles, which finally go into the detector, are considered.
-There are event generations, which only generate till the hadronization process and therfore shower programs are added.
+Event generators simulate the processes starting from the pp-collusion and seperate them into the following stages:
+Production of heavy particles, radiating of lighter particles (gluons, photons), decay of heavy unstable particles, hadronization and the decays of the particles resulting from the hadronizations into long-lived particles. 
+The resulting particles finally go into the detector simulation.
+There are event generators, which only generate till the hadronization process and therfore shower programs are added.\\
 To simulate the Z+jets samples the event genarator Sherpa 2.2 is used.
-Sherpa \cite{Sherpa} performs both simulating processes till the hadronization and beyond the hadronization at leading order precision. 
+Sherpa \cite{Sherpa} performs both the simulation of processes till the hadronization and beyond the hadronization.
+Sherpa simulates at leading order precision. 
 For the \ttbar{} background processes the generator Powheg is utilized with Pythia 8.1 \cite{Pythia} as shower program.
 Powheg \cite{Powheg} is a next-to leading order event generator.
 For the diboson background there are both simulated samples with Sherpa 2.2 and Powheg \& Pythia 8.1.
-The ttee and $\mathrm{tt \mu \mu}$ processes are simulated with Madgraph  and Pythia 8.1 as shower program.
+The processes ttee and $\mathrm{tt \mu \mu}$ are simulated with Madgraph as event generator and Pythia 8.1 as shower program.
 Madgraph \cite{Madgraph} is a eventgenerator which simulates at leading order.\\
-The used Monte-Carlo samples can be normalized to the value of the integrated luminosity by applying weights to the samples.
-Moreover weights for example for pile up can be applied.\\
-The weights have an influence on the number of events. 
+In the analysis the samples are normalized to the value of the integrated luminosity $\int{L} dt = 3.2 fb^{-1}$ to provide the possibilitiy of comparing the simulated data with the measured data.
+Moreover weights for example for pile up are applied.\\
+In the following analysis the weighted number of events denoted the expected number of events considering the integrated luminosity $\int{L} dt = 3.2 fb^{-1}$, pile up and further weights applied in the samples.
 
 
 \section{Signal Processes}
-The signal processes are simulated as mentioned for the background processes.
-Both vector-like top and bottom quark are considered to appear in the singlet.
-The signal processes are simulated with Protos and Pythia 8.1 as shower program.
+The signal also includes processes generated from Monte Carlo simulations. 
+In this analysis both vector-like top and bottom quark are considered to be arranged in the singlet.
+The processes are refferred to as TTS for the vector-like top quark pair production and BBS for the vector-like bottom quark pair production.
+Both TTS and BBS are simulated with the event generator Protos and Pythia 8.1 as shower program.
 Protos \cite{Protos} is a leading order event generator.\\
-For the signal processes the same weights can be applied as for the background processes.
+As mentioned in section \ref{samples} for the backround, the samples for the signal are also normalized to the value of the integrated luminosity $\int{L} dt = 3.2 fb^{-1}$.
+Therefore the weighted number of events also represents the expected number of events for the integrated luminosity $\int{L} dt = 3.2 fb^{-1}$, considering pile up and further weights applied in the samples.

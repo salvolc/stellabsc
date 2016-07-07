@@ -2,6 +2,7 @@
 \chapter{Optimization Studies for the Event Selection}
 
 \section{Search for Discriminating Variables }
+\label{distributions}
 The first part of the optimization studies is the search for variables which provide a significant distinction between background and signal.
 Caused by the basic selection discussed in section \ref{basic selection} there is already much background rejected.
 Moreover the requirement of two large-R jets cause that the remaining background events contain high energies, because large-R jets, which fulfill the minimum criteria, have to be produced.
@@ -12,7 +13,7 @@ Figure \ref{H_T} shows the distribution for the scalar sum of the transverse mom
 \centering
 \includegraphics[width=8cm]{figures/H_T.png}
 \caption{Plot for the scalar sum of all jet $p_{T}$'s in an event after the preselection. 
-Both signal and background are presented and the distributions are normalized on the same value. 
+Both signal and background are presented and the distributions are normalized to unity. 
 The weighted number of events is displayed in the legend in brackets next to the processes. 
 The number of events are expected for a integrated luminosity $\int L dt$ = \SI{3.2}{fb^{-1}}}
 \label{H_T}
@@ -24,7 +25,7 @@ Figure \ref{Zpt} presents the distribution of the Z candidate $p_{T}$.
 \centering
 \includegraphics[width=8cm]{figures/Zpt.png}
 \caption{Plot for the Z candidate $p_{T}$. 
-Both signal and background are presented and the distributions are normalized on the same value. 
+Both signal and background are presented and the distributions are normalized to unity. 
 The weighted number of events is displayed in the legend in brackets next to the processes. 
 The number of events are expected for a integrated luminosity $\int L dt$ = \SI{3.2}{fb^{-1}}}
 \label{Zpt}
@@ -37,12 +38,13 @@ In figure \ref{leadingljet} the $p_{T}$ of the leading large-R jet is represente
 \centering
 \includegraphics[width=8cm]{figures/leadingljet.png}
 \caption{Plot for the leading large-R jet $p_{T}$. 
-Both signal and background are presented and the distributions are normalized on the same value. 
+Both signal and background are presented and the distributions are normalized to unity. 
 The weighted number of events is displayed in the legend in brackets next to the processes. 
 The number of events are expected for a integrated luminosity $\int L dt$ = \SI{3.2}{fb^{-1}}.}
 \label{leadingljet}
 \end{figure}
 
+In the plot also a shift of the signal to the right is visible.
 Figure \ref{mZb} shows the distribution of the invariant mass of the Z candidate and the highest $p_{T}$ b-jet and \ref{mZt} the invariant mass of the Z candidate and the highest $p_{T}$ top-jet.
 
 
@@ -66,15 +68,100 @@ Figure \ref{mZb} shows the distribution of the invariant mass of the Z candidate
     \end{subfigure}
     }
     \caption{Plot for the invariant mass of the Z candidate and the highest $p_{T}$ b-jet (a) and the invariant mass of the Z candidate and the highest $p_{T}$ top-jet (b)  . 
-Both signal and background are presented and the distributions are normalized on the same value. 
+Both signal and background are presented and the distributions are normalized to unity. 
 The weighted number of events is displayed in the legend in brackets next to the processes. 
 The number of events are expected for a integrated luminosity $\int L dt$ = \SI{3.2}{fb^{-1}}.}
     \label{fig::stop}   
 \end{figure}
 %}
+The signal is shifted to the right caused by the same argumentation mentioned before. 
+For the BBS signal process there is a peak at \SI{900}{GeV} in figure \ref{mZb}.
+This is as expected because the Z candidate and the highest $p_{T}$ b-jet should result from the vector-like quark decay B \texorpdfstring{$\longrightarrow$}~Zb.
+The peak of the TTS signal in figure  \ref{mZt} also results from a vector-like quarks decay T \texorpdfstring{$\longrightarrow$}~Zt, therefore the peak at \SI{900}{GeV} is also as expected.\\
+Generally the presented distributions provide the possobility to achieve a distinction between background and signal by requiring limits for different variables.
 
 
 \section{Significance for Different Cuts}
+In this section the significance for different limits on variables, which are shown in section \ref{distributions}, are examined.
+As used in previous analysis \cite{8tevanalysis} $m(Zb)$ is chosen as final discriminant for the BBS process, but in this analysis $m(Zt)$ is chosen sepeatly for the TTS process.
+Boosted analysis provide the possibility of this variable by using the top-tag.
+The optimization studys are performed concering an interval of the final discriminat distributions.
+The interval is chosen, starting from the highest values of $m(Zb)$ and $m(Zt)$ until 80\% of all signal events of BBS and TTS are within the interval.
+This interval is chosen because the signal is shifted to higher values of $m(Zb)$ and $m(Zt)$.
+Therefore the interval in the interval the main background is rejected. 
+The significance of the signal relative to the fluctuations of the background is investigated with formula $\frac{s}{\sqrt{b}}$, while $\sqrt{b}$ describes the statistical uncertainty of the background and $s$ the number of signal events.
+Figure \ref{mZbcut} and \ref{mZtcut} show the significance as function of varying limits considering the vaiables presented in section \ref{distributions} for $m(Zb)$ and $m(Zt)$. 
+\begin{figure}[h]
+    \centering
+    \resizebox{0.46\columnwidth}{!}{
+    \begin{subfigure}{.49\textwidth}
+      \centering
+      \includegraphics[width=.99\linewidth]{figures/H_TcutmZb.pdf}
+      \caption{}
+      \label{mZb}
+    \end{subfigure}
+    }
+    \resizebox{0.46\columnwidth}{!}{
+    \begin{subfigure}{.49\textwidth}
+      \centering
+      \includegraphics[width=.99\linewidth]{figures/leadingljetptcutmZb.pdf}
+      \caption{}
+      \label{mZt}
+    \end{subfigure}
+    }
+    \resizebox{0.46\columnwidth}{!}{
+    \begin{subfigure}{.49\textwidth}
+      \centering
+      \includegraphics[width=.99\linewidth]{figures/ZptcutmZb.pdf}
+      \caption{}
+      \label{mZt}
+    \end{subfigure}
+    }
+    \caption{Plot for the significance for m(Zb) as function of varying limits for $H_{T}$ (a), leading large-R jet $p_{T}$ and Z boson $p_{T}$.
+    The values of the limits varying with \SI{50}{GeV} steps.}
+    \label{mZbcut}   
+\end{figure}
+
+The distributions are consistent with the distributions for the different variables, because the trend is as expected by regarding the distributions in section \ref{distributions}.
+For $H_{T}$ and leading large-R jet $p_{T}$ the significance has higher values for lower limits, because background and signal 
+
+
+\begin{figure}[h]
+    \centering
+    \resizebox{0.46\columnwidth}{!}{
+    \begin{subfigure}{.49\textwidth}
+      \centering
+      \includegraphics[width=.99\linewidth]{figures/H_TcutmZt.pdf}
+      \caption{}
+      \label{mZb}
+    \end{subfigure}
+    }
+    \resizebox{0.46\columnwidth}{!}{
+    \begin{subfigure}{.49\textwidth}
+      \centering
+      \includegraphics[width=.99\linewidth]{figures/leadingljetptcutmZt.pdf}
+      \caption{}
+      \label{mZt}
+    \end{subfigure}
+    }
+    \resizebox{0.46\columnwidth}{!}{
+    \begin{subfigure}{.49\textwidth}
+      \centering
+      \includegraphics[width=.99\linewidth]{figures/ZptcutmZt.pdf}
+      \caption{}
+      \label{mZt}
+    \end{subfigure}
+    }
+    \caption{Plot for the significance for m(Zt) as function of varying limits for $H_{T}$ (a), leading large-R jet $p_{T}$ and Z boson $p_{T}$.
+    The values of the limits varying with \SI{50}{GeV} steps.}
+    \label{mZtcut}   
+\end{figure}
+
+
+
+
+
+
 
 \section{Proposel for a Boosted Event Selection}
 
