@@ -8,9 +8,3 @@ With the optimization study performed in this thesis results a significance $\fr
 The significance is proportional to the number of signal events, therefore the absolute value of  $\frac{s}{\sqrt{b}}_{TTS}$ is lower than $\frac{s}{\sqrt{b}}_{BBS}$, because there is a fewer number of events for the TTS process. 
 The results for both TTS and BBS provide no significant distinction between background fluctuation and signal.
 Therefore with the amount of data for a integrated luminosity  $\int L dt$ = \SI{3.2}{fb^{-1}} and this optimization study no discovery of vector-like quarks were possible.
-The increase of the significance for the different limits set in the optimization study reveals that the optimization study is sensible.
-Moreover it is shown, that with the boosted analysis strategy a lot of background can be rejected by requiring two large-R jets and a top-tag.
-As a result of low statistic in the simulated Monte Carlo samples a requirement of one W-tag was not possible.
-This requirement would have reject a lot of background, too.
-Perhaps the requirement of at least one W-tag would increase the significance, but a safe statement for this is not possible.\\
-Conclusive it can be said that for a higher integrated luminosity and therefore a higher amount of signal events the optimization study could provide the possibility for a discovery.

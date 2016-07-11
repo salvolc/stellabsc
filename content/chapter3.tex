@@ -6,7 +6,7 @@
 In order to perform an unbiased analysis in particle physics, the analysis strategy is studied with simulated samples and only later on compared to data.
 In this analysis, only simulated data are considered.
 The simulated background samples contain background processes generated with Monte Carlo simulations.
-For the background,  Monte Carlos samples uses random number generators in combination with branching ratios predicted in the Standard Model to simulate processes.
+%For the background,  Monte Carlos samples uses random number generators in combination with branching ratios predicted in the Standard Model to simulate processes.
 The Monte Carlo samples used in this analysis were passed through a full detector simulation of the ATLAS detector \cite{simulation1, simulation2}.\\
 The background is divided into five parts, considering the dominant background processes separately and combining the other backgrounds in one category.
 There are the Z+jets backgrounds, which include Z+bottom, Z+charm and Z+light processes.
@@ -17,8 +17,9 @@ The diboson processes include a produced pair of vector bosons (WW, ZW, ZZ) and 
 Since the different processes and the signal can lead to simular signatures in the detector, caused by partially equal final state products, the processes are considered as main background. \\
 The various processes are simulated with different event generators.
 Event generators simulate the processes starting from the pp-collision and seperate them into the following stages:
-Production of heavy particles, radiation of lighter particles (gluons, photons), decay of heavy unstable particles, hadronization and the decays of the particles resulting from the hadronization into long-lived particles. 
+Production of heavy particles , radiation of lighter particles (gluons, photons), decay of heavy unstable particles, hadronization and the decays of the particles resulting from the hadronization into long-lived particles. 
 The resulting particles finally enter the detector simulation.
+Thereby the production and decay of heavy unstable particles is considered through appropriate matrix elements.
 There are event generators, which only generate until the hadronization process and therefore shower programs are added.\\
 To simulate the Z+jets samples, the event generator Sherpa 2.2 is used.
 Sherpa \cite{Sherpa} performs both the simulation of processes until the hadronization and beyond the hadronization.
